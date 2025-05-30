@@ -73,38 +73,38 @@
 
           if(userName === "" && userEmail === "" && userPassword === ""){
 
-            document.getElementById("errorName").innerText = "Please enter your full name"
+            document.getElementById("errorName").innerText = "Full name required!"
 
-            document.getElementById("errorEmail").innerText = "Please enter your email"
+            document.getElementById("errorEmail").innerText = "Email required!"
 
-            document.getElementById("errorPassword").innerText = "Please enter your passwrod"
+            document.getElementById("errorPassword").innerText = "Passwrod required!"
            
             return;
 
           }else if (userName === ""  || userEmail === !"" || userPassword === !""){
-            document.getElementById("errorName").innerText = "Please enter your full name";
+            document.getElementById("errorName").innerText = "Full name requied!";
 
               if (userName === !"" || userEmail === "" || userPassword === !""){
-                document.getElementById("errorEmail").innerText = "Please enter your email"
+                document.getElementById("errorEmail").innerText = "Email required!"
               }
 
               if (userName === !"" || userName === !"" || userPassword === ""){
-                document.getElementById("errorPassword").innerText = "Please enter your passwrod"
+                document.getElementById("errorPassword").innerText = "Password required!"
               }
           
             return;
 
           }else if (userName === !"" || userEmail === "" || userPassword === !""){
-          document.getElementById("errorEmail").innerText = "Please enter your email"
+          document.getElementById("errorEmail").innerText = "Email required!"
 
           if (userName === !"" || userName === !"" || userPassword === ""){
-          document.getElementById("errorPassword").innerText = "Please enter your passwrod"
+          document.getElementById("errorPassword").innerText = "Passwrod required!"
           }
 
           return;
 
           }else if (userName === !"" || userName === !"" || userPassword === ""){
-          document.getElementById("errorPassword").innerText = "Please enter your passwrod"
+          document.getElementById("errorPassword").innerText = "Passwrod required!"
 
             return;
           }
